@@ -1,0 +1,14 @@
+E:\ReactjsProject\ToDoListAPI\bin\Debug\netcoreapp2.2\ToDoListAPI.deps.json
+E:\ReactjsProject\ToDoListAPI\bin\Debug\netcoreapp2.2\ToDoListAPI.runtimeconfig.json
+E:\ReactjsProject\ToDoListAPI\bin\Debug\netcoreapp2.2\ToDoListAPI.runtimeconfig.dev.json
+E:\ReactjsProject\ToDoListAPI\bin\Debug\netcoreapp2.2\ToDoListAPI.dll
+E:\ReactjsProject\ToDoListAPI\bin\Debug\netcoreapp2.2\ToDoListAPI.pdb
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.csprojAssemblyReference.cache
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.csproj.CoreCompileInputs.cache
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.RazorAssemblyInfo.cache
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.RazorAssemblyInfo.cs
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.AssemblyInfoInputs.cache
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.AssemblyInfo.cs
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.RazorTargetAssemblyInfo.cache
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.dll
+E:\ReactjsProject\ToDoListAPI\obj\Debug\netcoreapp2.2\ToDoListAPI.pdb
