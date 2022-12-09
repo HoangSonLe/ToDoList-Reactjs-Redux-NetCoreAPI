@@ -1,8 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import * as actions from './../actions/index';
-import * as types from './../constants/ActionTypes';
+import * as actions from '../actions/index';
+import * as types from '../constants/ActionTypes';
 import swal from 'sweetalert';
+import ImageUpload from './ImageUpload';
 
 class FormVer2 extends React.Component {
     constructor(props) {
@@ -96,6 +97,7 @@ class FormVer2 extends React.Component {
         if (!this.props.isShowForm) return null;
         return (
             <div className="row">
+                <ImageUpload/>
                 <div >
                     <form onSubmit={this.handleSubmit} onReset={this.handleReset} className="form-inline">
                         <div className="form-group" style={{ marginRight: 10 }}>

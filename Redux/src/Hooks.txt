@@ -1,0 +1,44 @@
+import { useCallback, useEffect, useLayoutEffect, useMemo, useReducer, useRef } from "react";
+
+useEffect
+useLayoutEffect
+useRef
+useMemo
+useCallback
+useReducer
+use
+ref, useRef, forwardRef trong React
+swr
+styled component react
+websocket
+https://www.youtube.com/watch?v=nEQvA5HfEDE&ab_channel=AsielAlvarez
+https://www.youtube.com/watch?v=QJmNEqy0zV0&ab_channel=F8Official
+
+
+
+//Callback luôn được gọi sau khi cmp được mounted
+//Cleanup function luôn được gọi trước khi cmp unmounted
+//Cleanup function luôn được gọi trước khi callback được gọi (trừ mounted)
+// 1. useEffect (callback)
+  //Callback được gọi mỗi khi cmp re-render
+  //Callback được gọi sau khi cmp thêm element vào DOM
+// 2.useEffect(callback,[])
+  //Callback chỉ được gọi 1 lần sau khi cmp mounted
+// 3.useEffect(callback,[depens])
+  //Callback được gọi lại mỗi khi depends thay đổi
+
+
+//useEffect
+// 1.Cập nhật state
+// 2.Cập nhật DOM (mutated)
+// 3.Render lại UI
+// 4.Gọi cleanup khi deps thay đổi
+// 5.Gọi useEffect callback
+
+
+// //useLayoutEffect
+// 1.Cập nhật state
+// 2.Cập nhật DOM (mutated)
+// 4.Gọi cleanup khi deps thay đổi (sync)
+// 5.Gọi useEffect callback (sync)
+// 3.Render lại UI

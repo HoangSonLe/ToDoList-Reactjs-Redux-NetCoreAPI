@@ -1,9 +1,10 @@
 import * as types from './../constants/ActionTypes';
 import callApi from '../utils/ApiCaller';
+import tasks from '../mocks/task';
 export const fetchAllTasksRequest = () => {
     return (dispatch)=>{
         return callApi('tasks',"GET",null).then(res=> {
-            dispatch(listAll(res.data));
+            dispatch(listAll(tasks));
         });
     }
 }
